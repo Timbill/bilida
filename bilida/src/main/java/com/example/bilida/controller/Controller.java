@@ -28,7 +28,7 @@ public class Controller {
 
 	@GetMapping("/welcome")
 	public String welcome() {
-		System.out.println("entered mapping /welcomeVV");
+		System.out.println("entered mapping /welcome");
 		return service.retrieveWelcomeMessage();
 	}
 
