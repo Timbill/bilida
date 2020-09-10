@@ -1,8 +1,8 @@
 package com.example.bilida.model;
 
-
+import lombok.Data;
 import java.util.List;
-
+//@Data
 public class User {
 	private String message;
 	private String number;
