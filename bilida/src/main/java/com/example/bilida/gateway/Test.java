@@ -8,8 +8,8 @@ public class Test {
 	public static void main(String[] args) {
  
 		// with lambda expression
-        Sayable withLambda = () -> System.out.println(Runtime.getRuntime().totalMemory());
-        withLambda.print();
+//        Sayable withLambda = () -> System.out.println(Runtime.getRuntime().totalMemory());
+//        withLambda.print();
 	}
 
 }
