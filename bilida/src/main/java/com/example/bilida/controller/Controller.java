@@ -36,7 +36,7 @@ public class Controller {
 	//@ResponseBody
 	public Map<String, Object> dynamicConfiguration() {
 		Map<String, Object> map = new HashMap<String, Object>();
-		map.put("message", "Tim");
+		map.put("message", "Timmy");
 		map.put("number", "10");
 		map.put("value", "value");
 		return map;
