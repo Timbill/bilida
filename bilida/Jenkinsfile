@@ -1,29 +1,21 @@
 pipeline {
-    agent { node { label 'swarm-ci' } }
+    agent any
 
     stages {
-
-
-        stage("Build") {
+        stage('Build') {
             steps {
-               echo 'Build application'
+                echo 'Building..'
             }
         }
-
-        stage("Test") {
+        stage('Test') {
             steps {
-                echo 'Test application'
-            }
-        }    
-        stage("Deploy") {
-            steps {
-                echo 'Deploy application'
+                echo 'Testing..'
             }
         }
-            post {
-                always {
-                 echo 'post'
-                }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
             }
-     }
+        }
+    }
 }
